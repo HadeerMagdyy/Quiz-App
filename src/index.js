@@ -1,9 +1,10 @@
 import React from 'react';
 import ReactDOM from 'react-dom';
-import './index.css';
+import './styles/styles.scss';
+import 'materialize-css';
+import { Button, Card, Row, Col } from 'react-materialize';
 import App from './App';
 import * as serviceWorker from './serviceWorker';
-
 ReactDOM.render(
   <React.StrictMode>
     <App />

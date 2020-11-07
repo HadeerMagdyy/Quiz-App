@@ -1,0 +1,84 @@
+#home{
+    background-image: url(../../assets/img/olav-ahrens-rotne-MAEbdaFe4ps-unsplash.jpg);
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    justify-content: space-around;
+    height: 100vh;
+    width: 100vw;
+
+    section{
+       // background-color: rgba(0, 0,0,0.7);
+        padding-left: 2rem;
+        padding-right: 2rem;
+        height: 100%;
+        width: 35%;
+        border-radius: 5px;
+        margin-right: -450px;
+    }
+    h1{
+        font-size: 3rem;
+        margin-top: 25px;
+        font-weight: bold;
+        text-align: center;
+        color:white;
+        text-shadow: 1px 1px 2px black, 0 0 25px blue, 0 0 5px darkblue;
+        font-size: 150px;
+        font-family: 'Bubblegum Sans', cursive;;
+    }
+    .play-button-container{
+        width: 100%;
+        margin-top: 50px;
+    }
+    a.play-button{
+        background-color:#57b846;
+        display: block;
+        border-radius: 30px;
+        color :#ffff;
+        cursor: pointer;
+        padding: 1rem;
+        font-size: 1.3rem;
+        text-align: center;
+        transition: 0.3s linear all;
+    }
+    a.play-button:hover{
+        background-color: hotpink;
+    }
+  
+    .auth-container{
+        width: 100%;
+        display: flex;
+        justify-content: space-between;
+        margin-top: 3rem;
+    }
+    #login-button{
+        background-color: #ea4355;
+    }
+    #login-button:hover{
+        background-color: hotpink;
+    }
+    #signup-button{
+        background-color: #1da1f2;
+    }
+    #signup-button:hover{
+        background-color: hotpink;
+    }
+    .auth-container .auth-buttons{
+        color :#ffff;
+        cursor: pointer; 
+        padding: 1rem 0;
+        font-size: 1.3rem;
+        text-align: center;
+        border-radius: 30px;
+        width: 35%;
+        transition: 0.3s linear all;
+
+    }
+}
+@media (max-width:768px){
+    #home section{
+        padding: 0 1rem;
+        width: 100%;
+        height:100%;
+    }
+}

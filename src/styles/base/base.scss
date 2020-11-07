@@ -1,0 +1,39 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+body{
+    font-family: 'Indie Flower', cursive;
+}
+
+.toast-invalid{
+    width: 260px;
+    height: 30px;
+    padding-top: 8px;
+    background-color: #F44336 !important;
+    border-radius: 5px !important;
+    color: #f8f8ff !important;
+    text-align: center;
+    font-weight: bold;
+    margin-left: 120px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+    
+}
+.toast-valid{
+    width: 260px;
+    height: 30px;
+    padding-top: 8px;
+    text-align: center;
+    background-color: #4caf50 !important;
+    border-radius: 5px !important;
+    color: #f8f8ff !important;
+    font-weight: bold;
+    margin-left: 120px;
+    box-shadow: 10px 10px 5px 0px rgba(0,0,0,0.75);
+}
+.disable{
+    background-color: #ccc !important;
+    box-shadow: none !important;
+    opacity: 0.9 !important;
+    pointer-events: none;
+}
